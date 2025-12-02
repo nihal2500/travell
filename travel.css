@@ -1,0 +1,32 @@
+body { margin: 0; font-family: Arial; background: #e8f0ff; }
+header { background: #1e90ff; color: white; padding: 20px; }
+
+nav { background: #333; padding: 10px; }
+nav a { color: white; text-decoration: none; margin-right: 15px; }
+
+section {
+    background: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.images {
+    display: flex;
+    gap: 20px;
+}
+
+.photo {
+    background: #ccc;
+    width: 150px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer {
+    text-align: center;
+    background: #333;
+    color: white;
+    padding: 10px;
+}
